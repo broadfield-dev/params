@@ -22,4 +22,4 @@ params = "params.main:main"
 
 [project.urls]
 "Homepage" = "https://github.com/broadfield-dev/params"
-"Repository" = "https://github.com/YOUR-USERNAME/parse_py"
+"Repository" = "https://github.com/broadfield-dev/params"
