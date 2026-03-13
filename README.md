@@ -26,9 +26,6 @@ params app.py > api.md
 # Example output
 
 ```
-# Function Documentation – parse_py.py
-
-
 ### `get_docstring_summary()`
 
 **Parameters:**
@@ -56,6 +53,15 @@ params app.py > api.md
 
 **Parameters:**
 - `filepath`: Path = None  (optional)
+
+### `parse_to_markdown()`
+
+**Parameters:**
+- `filepath`: Path | str = None  (optional)
+
+**Returns:** `str`
+
+**Summary:** Main function that can be called programmatically
 
 ### `main()`
 ```
