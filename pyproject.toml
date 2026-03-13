@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "params"
+version = "0.1.0"
+description = "Parse Python files and generate Markdown documentation of functions and parameters"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Your Name", email = "you@example.com"}]
+keywords = ["ast", "python-parser", "documentation", "markdown"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+params = "params.main:main"
+
+[project.urls]
+"Homepage" = "https://github.com/broadfield-dev/params"
+"Repository" = "https://github.com/YOUR-USERNAME/parse_py"
