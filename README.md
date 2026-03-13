@@ -18,10 +18,6 @@ params your_script.py
 params src/utils.py --output docs/functions.md
 ```
 
-# Or with redirection
-```bash
-params app.py > api.md
-```
 
 # Example output
 
